@@ -173,9 +173,11 @@ input {
     margin: 1px 0 10px 0;
 }
 .div1{
+    color:#000000;
     grid-area: div1;
 }
 .div2{
+    color:#000000;
     grid-area: div2;
 }
 .button{
