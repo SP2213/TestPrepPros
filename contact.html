@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
-        <title>RWD Project</title>
+        <title>RWD Project #6</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="code.js"></script>
@@ -13,7 +13,7 @@
         <div class="container1">
             <header class="headerwrapper">
                 <a href="index.html">
-                    <img class="headerpic" src="https://codehs.com/uploads/b8e3ab87c6c1718264e821c660b8235f"/>
+                    <img class="headerpic" src="https://codehs.com/uploads/b8e3ab87c6c1718264e821c660b8235f" alt="website logo"/>
                 </a>
                 <div class="headertext">
                     <h1>Test Prep Pros</h1>
@@ -40,14 +40,14 @@
                 
                 <form class="nestedgrid2" autocomplete="off" action="https://formspree.io/f/xleqdjpy" method="POST">
                     <div class="div1">
-                        Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname"><br>
-                        Email*<br><input type="email" size="30" required name="email"><br>
-                        Phone*<br><input type="tel" size="30" placeholder="(xxx) xxx-xxxx" required name="phone"><br>
-                        Personal Website<br><input type="url" size="30" required name="personalwebsite"><br>
+                        Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname" aria-label="Name"><br>
+                        Email*<br><input type="email" size="30" required name="email" aria-label="Email"><br>
+                        Phone*<br><input type="tel" size="30" placeholder="(xxx) xxx-xxxx" required name="phone" aria-label="Phone"><br>
+                        Personal Website<br><input type="url" size="30" required name="personalwebsite" aria-label="Website"><br>
                     </div>
                     
                     <div class="div2">
-                        Current High School<br><input type="text" size="30" list="schoolnames"><br>
+                        Current High School<br><input type="text" size="30" list="schoolnames" aria-label="School">><br>
                         <datalist id="schoolnames">
                             <option value="Beaverbrook"></option>
                             <option value="Birchwood"></option>
@@ -56,8 +56,8 @@
                             <option value="Hainesville"></option>
                             <option value="Other"></option>
                         </datalist>
-                        Expected date of entry<br><input type="date" required name="dateofentry"><br>
-                        Number of days/week desired<br><input type="number" min="1" max="5" step="1" value="2" name="daysdesired"><br>
+                        Expected date of entry<br><input type="date" required name="dateofentry" aria-label="Date"><br>
+                        Number of days/week desired<br><input type="number" min="1" max="5" step="1" value="2" name="daysdesired" aria-label="Days"><br>
                         <input type= "submit" value="Help Me Book Boost My Scores!" class="button">
                     </div>
                 </form>
